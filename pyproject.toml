@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "headlines_foo"
+version = "0.0.1"
+description = "A naive news headlines scrapper \u0026 analyser"
+authors = [
+  "edazizovv",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "headlines_foo"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
